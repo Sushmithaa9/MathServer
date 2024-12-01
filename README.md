@@ -67,7 +67,19 @@ Publish the website in the given URL.
 
 
 ## SERVER SIDE PROCESSING:
+```
+<script type="text/javascript">
+            function check()
+            {
+                var x=Number(document.getElementById("ans1").value);
+                var y=Number(document.getElementById("ans2").value);
+                var p=x*x*y;
+                document.getElementById("answer").innerText="POWER- "+ p;
+                
+            }
 
+        </script>
+```
 
 ## HOMEPAGE:
 ![alt text](ss.ex5.jpg)
